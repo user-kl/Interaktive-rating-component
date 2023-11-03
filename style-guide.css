@@ -1,0 +1,140 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass';
+}
+
+.boks {
+  height: 416px;
+  width: 412px;
+  background-image: radial-gradient(#232A34, #181E27);
+  border-radius: 10%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Sentrerer innholdet vertikalt */
+  align-items: center; /* Sentrerer innholdet horisontalt */
+  margin: 50px;
+}
+
+
+.container > *:not(:first-child) {
+  margin-top: 20px;
+}
+
+.container2 > * {
+  margin-bottom: 20px;
+}
+
+.stjerneSirkel {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #262E38;
+}
+
+.tittel {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.takk {
+  color: #FFFFFF;
+  font-weight: 700;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.brødtekst {
+  color: #969FAD;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.brødtekst2 {
+  color: #969FAD;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('./Fonter/Overpass-VariableFont_wght.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tallrekke {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  color: #969FAD;
+}
+
+.sirkel {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #232A34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sirkel:hover {
+  background-color:#969FAD;
+  color: #FFFFFF;
+}
+
+.knapp {
+  padding: 10px;
+  width: 300px;
+  height: 35px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #FC7614;
+  font-size: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.knapp:hover {
+  color: #FC7614;
+  background-color: #FFFFFF;
+}
+
+.valgt {
+  background-color: #FC7614;
+}
+
+.linkeMedTekst {
+  background-color: #232A34;
+  color: #FC7614;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Sentrerer innholdet vertikalt */
+  align-items: center;
+  margin-top: 20px; /* Flytter elementet opp 20px */
+}
